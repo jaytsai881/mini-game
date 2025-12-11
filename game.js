@@ -1,4 +1,3 @@
-cat > game.js << 'EOF'
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
@@ -149,4 +148,3 @@ setInterval(() => {
 
 // Start game
 update();
-EOF
