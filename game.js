@@ -1,4 +1,4 @@
-cat << 'EOF' > game.js
+cat > game.js << 'EOF'
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
